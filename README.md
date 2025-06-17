@@ -12,6 +12,15 @@ To build the Asteroids binary you will need all build tools needed to compile vi
     sudo pacman -S --needed sdl2 sdl2_image sdl2_mixer sdl2_ttf
     make release run
 
+The Makefile also supports these commands:
+```
+make rebuild
+make clean
+make release
+make debug
+SRC_DIR=Video8 make rebuild run
+CC=clang make clean release run
+```
 # Controls
 Up Arrow - Fires the main engines.\
 Right Arrow - Rotates Clockwise.\
