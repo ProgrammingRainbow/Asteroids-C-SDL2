@@ -29,4 +29,4 @@ Space Bar - Fires the main gun.\
 Escape - Quits and closes game.\
 W - Toggles Fullscreen.\
 M - Toggles Music.\
-F - Enables showFPS.
+F - Toggle FPS Display.
